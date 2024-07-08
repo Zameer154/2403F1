@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+}
+h1{
+    background-color: cadetblue;
+    color: darkblue;
+}
+p{
+    background-color: rgb(171, 131, 82);
+    color: darkred;
+}
+
+#heading{
+    background-color: darkgray; 
+    color: black;
+    text-align: center;
+}
+
+.head{
+    background-color: cornflowerblue;
+    color: aliceblue;
+    /* text-align: center; */
+    text-decoration: overline underline;
+    /* text-decoration: underline; */
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; */
+    text-decoration-color: lightcoral;
+}
+
+.para{
+    background-color: brown;
+    color: beige;
+}
+
+
+
+
+

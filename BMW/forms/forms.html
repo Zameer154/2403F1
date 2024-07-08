@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Forms in HTML5</h1>
+    <form action="#">
+        <label for="name">Enter Name:</label>
+        <input type="text" name="username" id="name"><br><br>
+        <label for="email">Enter Email:</label>
+        <input type="email" name="useremail" id="email"><br><br>
+        <label for="pass">Enter Password:</label>
+        <input type="password" name="userpass" id="pass"><br><br>
+        <label for="dob">Enter DOB:</label>
+        <input type="date" name="userdob" id="dob"><br><br>
+        <label for="">Gender:</label>
+        <input type="radio" name="gender" id="m">
+        <label for="m">male</label>
+        <input type="radio" name="gender" id="f">
+        <label for="f">female</label><br><br>
+        <fieldset>
+            <legend>Hobbies</legend>
+            <input type="checkbox" name="" id="swim">
+            <label for="swim">Swimming</label>
+            <input type="checkbox" name="" id="football">
+            <label for="football">Football</label>
+            <input type="checkbox" name="" id="circ">
+            <label for="circ">Cricket</label>
+            <input type="checkbox" name="" id="travel">
+            <label for="travel">Travelling</label>
+        </fieldset>
+        <p>Please select country from below list:</p>
+        <select name="Country" id="">
+            <option value="pak">Pakistan</option>
+            <option value="irn" selected>Iran</option>
+            <option value="irq" >Iraq</option>
+            <option value="ind">Bharat</option>
+            <option value="nep" >Nepal</option>
+            <option value="chi" >China</option>
+        </select> <br><br>
+
+        <label for="">Upload CV:</label>
+        <input type="file" name="" id=""><br><br>
+
+        <label for="">Downloading..</label>
+        <progress value="80" max="100"></progress><br><br>
+
+        <label for="">Range:</label>
+        <input type="range" name="" id=""><br><br>
+        <input type="submit" value="Submit Form">
+
+        <input type="reset" value="Reset Form">
+        <input type="button" value="LogIn">
+    </form>
+</body>
+</html>

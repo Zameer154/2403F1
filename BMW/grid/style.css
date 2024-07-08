@@ -1,0 +1,52 @@
+.container{
+    width: 700px;
+    background-color: bisque;
+    margin: 70px 0px 0px 50px;
+    display: grid;
+    /* grid-template-columns: 230px 230px 230px; */
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-columns: repeat(2, 1fr) 200px; */
+    /* grid-template-columns: 100px auto 200px ; */
+    
+    /* grid-row-gap: 10px;
+    grid-column-gap: 10px;
+     */
+    /* RC: RowCol cars */
+    grid-gap: 10px 20px;
+
+    grid-template-rows: 100px 100px;
+
+}
+
+.item-one{
+    background-color: lightblue;
+    /* grid-column-start: 2;
+    grid-column-end: 3; */
+
+    /* grid-column: 3/4; */
+
+    /* grid-row-start: 1;
+    grid-row-end: 2; */
+
+    /* grid-row: 2/3; */
+
+    /* Short-hand one line RS/CS/RE/CE */
+
+    grid-area: 1/2/2/3;
+
+}
+.item-two{
+    background-color: cyan;
+}
+.item-three{
+    background-color: yellowgreen;
+}
+.item-four{
+    background-color: pink;
+}
+.item-five{
+    background-color: firebrick;
+}
+.item-six{
+    background-color: lightgreen;
+}

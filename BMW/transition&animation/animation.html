@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: darkred;
+            color: aliceblue;
+            line-height: 100px;
+            text-align: center;
+            border-radius: 7px;
+            /* animation-name: animation1;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            animation-direction: alternate;
+            animation-iteration-count: infinite; */
+            /* animation-play-state: running; */
+            /* short-hand */
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            animation: animation1 2s infinite alternateq;
+        
+        }
+
+        .box:hover{
+            animation-play-state: paused;
+        }
+
+
+        @keyframes animation1{
+            from{
+                background-color: darkred;
+                color: aliceblue;
+                border-radius: 7px;
+            }
+            to{
+                background-color: black;
+                color: lightsalmon;
+                border-radius: 50%;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="box">Box</div>
+</body>
+</html>
