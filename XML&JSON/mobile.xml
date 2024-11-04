@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="mobile.xsl" type="text/xsl"?>
+<?xml-model href="mobile.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<?xml-model href="mobile.dtd" type="application/xml-dtd"?>
+<mobileShop>
+    <mobile>
+        <id>1</id>
+        <name>Note 13 Pro</name>
+        <brand>Redmi</brand>
+        <price>64000</price>
+    </mobile>
+    <mobile>
+        <id>2</id>
+        <name>Iphone 16</name>
+        <brand>Apple</brand>
+        <price>564000</price>
+    </mobile>
+    <mobile>
+        <id>3</id>
+        <name>Note 20</name>
+        <brand>Samsung</brand>
+        <price>174000</price>
+    </mobile>
+    <mobile>
+        <id>4</id>
+        <name>Camon 22 Air</name>
+        <brand>Techno</brand>
+        <price>34000</price>
+    </mobile>
+    <mobile>
+        <id>5</id>
+        <name>G-Stylus</name>
+        <brand>Motorolla</brand>
+        <price>44000</price>
+    </mobile>
+</mobileShop>

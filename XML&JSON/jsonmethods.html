@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var name = "Zameer Abbass";
+        localStorage.setItem("fname", name);
+
+
+        let stdname = localStorage.getItem("fname");
+        console.log(stdname);
+
+
+        let cricketer = {
+            "name": "Bobzi",
+            "player": "batsman",
+            "age": "35"
+        }
+        
+        console.log("Before conversion " + typeof(cricketer)); //Object
+
+        localStorage.setItem("cric", cricketer);
+
+        let cric = JSON.stringify(cricketer)
+        console.log("After conversion " + typeof(cric)); //String
+
+        localStorage.setItem("abc", cric);
+
+        let xyz = JSON.parse(localStorage.getItem("abc"));
+        console.log(typeof(xyz));
+
+        console.log(xyz.name)
+    </script>
+</body>
+</html>
