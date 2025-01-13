@@ -73,13 +73,75 @@
     //call  
     sayHi();
 
-    //paramterized function
-    function add($num1, $num2){
-        echo $num1 + $num2;
+    // function add(){
+    //     echo 71 + 29;
+    // }
+
+    // add();
+    // //paramterized function
+    // function add($num1, $num2){
+    //     echo $num1 + $num2;
+    // }
+
+    // // call
+    // add(10, 20);
+
+
+    // function add($num1=0, $num2=0){
+    //     echo $num1 + $num2;
+    // }
+
+    // // call
+    // add(110, 40);
+
+    // function add($num1=0, $num2=0){
+    //     return $num1 + $num2;
+    // }
+
+    // // call
+    // $c = add(110, 40);
+    // echo $c;
+
+
+    //Conditional statements
+    // $age = 16;
+
+    // if($age >= 18){
+    //     echo "You are eligible to vote";
+    // }else{  
+    //     echo "You are not eligible to vote";
+    // }
+
+
+    // if($age >= 18){
+    //     echo "You can drive";
+    // }
+    // elseif($age >= 16){
+    //         echo "<script>alert('You can drive with a guardian')</script>";
+    //     }
+    // else{
+    //         echo "You can't drive";
+    //     }
+
+
+    //switch case
+    $favColor = "red";
+
+    switch($favColor){
+        case "red":
+            echo "Your favorite color is red";
+            break;
+        case "blue":
+            echo "Your favorite color is blue";
+            break;
+        case "green":
+            echo "Your favorite color is green";
+            break;
+        default:
+            echo "Your favorite color is neither red, blue nor green";
     }
 
-    // call
-    add(10, 20);
+
 
 ?>
 </body>
